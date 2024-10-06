@@ -93,8 +93,8 @@ class MainActivity : ComponentActivity() {
 
                                                 // TODO: Support other locales
                                                 val locale = "en_US"
-                                                val identifier = "com.apple.locationd" // TODO: test empty identifier
-                                                val version = "8.4.1.12H321" // TODO: test empty version
+                                                val identifier = ""
+                                                val version = ""
 
                                                 request += (1).toShort().toBeBytes()
                                                 request += locale.length.toShort().toBeBytes()

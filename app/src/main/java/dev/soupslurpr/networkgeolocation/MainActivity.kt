@@ -120,6 +120,8 @@ class MainActivity : ComponentActivity() {
                                                     val response =
                                                         WpsOuterClass.Wps.parseFrom(inputStream)
 
+                                                    println(response)
+
                                                     val matchedBssids =
                                                         aps.filter { ap ->
                                                             response.bssidsList.any { responseBssid ->
